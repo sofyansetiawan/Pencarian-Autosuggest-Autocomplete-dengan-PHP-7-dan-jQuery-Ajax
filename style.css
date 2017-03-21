@@ -1,0 +1,39 @@
+.input_div{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#input_pencarian{
+	width: 100%;
+    border: 5px solid #9E9E9E;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#box_pencarian{ 
+	position: relative; 
+	width:100%; 
+	display:none;  
+	font-family:sans-serif; 
+	font-size:20px;
+}
+
+#hasil_pencarian {
+    background: #FFEB3B;
+}
+
+#hasil_pencarian li{
+	list-style: none;
+    margin-left: -40px;
+    padding: 5px 15px;
+    border-bottom: 1px dotted #fff;
+}
+
+#hasil_pencarian li:hover{
+	background: #ddd; 
+}
+
+#hasil_pencarian li a{
+	color: #333;
+	text-decoration: none;
+}
